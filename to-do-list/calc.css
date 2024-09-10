@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: rgb(147, 238, 238);
+    height: 100%;
+    padding: 10px;
+}
+
+.calculator {
+
+    width: 360px;
+    max-width: 450px;
+    background-color: rgb(55, 48, 59);
+    border-radius: 20px;
+    margin: 40px auto 20px;
+    padding: 60px 10px 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator input {
+    height: 60px;
+    width: 60px;
+    color: rgb(196, 236, 196);
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    /* here -8 -8 represent shadow in the upper side of the box and 5px 5px represents lower side of the box and the 
+    third parameter is the blur radius ofthe box how much will thw shadow be and we can also add the 4th parameter
+      to it as the spreading value of the shadow */
+    margin: 5px;
+    /* border-radius:50% ; */
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(45, 43, 46);
+}
+
+#equals {
+    width: 135px;
+}
+
+#calc {
+    width: 280px;
+    text-align: right;
+    border-radius: 10px;
+}

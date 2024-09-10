@@ -1,0 +1,64 @@
+/* *{
+    text-align: center;
+} */
+body{
+    background: linear-gradient(to bottom, rgb(96, 236, 96),rgb(148, 148, 241));
+    display: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    margin-left:  400px;
+    margin-top: 100px;
+}
+
+/* #input1 {
+    margin: 0;
+    border: none;
+    border-radius: 25px;
+    width: 75%;w
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: #c4c0c0;
+} */
+/* .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  } */
+.add-task {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+  
+.add-task input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+  
+.add-task button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff3333;
+    color: white;
+    cursor: pointer;
+    margin-left: -50px; /*Negative margin to position the button inside the input field*/
+}
